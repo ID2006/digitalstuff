@@ -1,0 +1,30 @@
+body {
+    background-image: url(images/chicken.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 50px;
+}
+@font-face {
+    font-family: 'trade_windsregular';
+    src: url('tradewinds-regular-webfont.woff2') format('woff2'),
+         url('tradewinds-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'trade_windsregular';
+    font-size: 30px;
+}
+p {
+    font-family: 'trade_windsregular';
+}
+li {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bolder;
+}
+h3 {
+    font-family: 'trade_windsregular';
+}
+#gabe {
+    width: 90%;
+}
